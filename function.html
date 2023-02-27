@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Value/Market/Competition</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div id="banner">
+		<h1>Budget Planner</h1>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="function.html">Function</a></li>
+			<li><a href="value_market.html">Value/Market/Competitors</a></li>
+			<li><a href="about.html">About Me</a></li>
+		</ul>
+	</div>
+	<div class="content_grid">
+		<div class="box">
+			Income: <input type="text" id="num1"><br>
+			Expenses: <input type="text" id="num2"><br><br>
+			<p id="response"></p>
+			<button onclick="createBudget()">Get Budget</button>
+		</div>
+	</div>
+	<div class="foot">
+		<footer>
+			<p>Created by David Kim. Copyright © 2022. All Rights Reserved</p>
+		</footer>
+	</div>
+	
+<script>
+	function createBudget() {
+		var income = document.getElementById("num1").value;
+		var expenses = document.getElementById("num2").value;
+		var budget = document.getElementById("response");
+		var total = income - expenses;
+		if (total > 0) {
+			budget.innerHTML = "You are $" + total.toFixed(2).toString() + " under budget!";
+		}
+		else if (total < 0) {
+			total = Math.abs(total);
+			budget.innerHTML = "You are $" + total.toFixed(2).toString() + " over budget!";
+		}
+		else if (total == 0) {
+			budget.innerHTML = "You broke even!";
+		}
+		}
+</script>
+</body>
+</html>
