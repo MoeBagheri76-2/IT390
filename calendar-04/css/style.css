@@ -8144,7 +8144,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #7e0cf5; }
+  color: green; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
@@ -8159,7 +8159,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .bg-primary {
-  background: #7e0cf5 !important; }
+  background: yellow !important; }
 
 .ftco-section {
   padding: 7em 0; }
@@ -8187,7 +8187,7 @@ h1, h2, h3, h4, h5,
   height: 500px;
   position: relative;
   margin: 20px auto;
-  background: #7e0cf5; }
+  background: green; }
 
 /*  Events display */
 .events-container {
@@ -8231,7 +8231,7 @@ h1, h2, h3, h4, h5,
   font-size: 1rem; }
 
 .event-count {
-  color: #7e0cf5;
+  color: green;
   text-align: right; }
 
 .event-name {
@@ -8300,7 +8300,7 @@ h1, h2, h3, h4, h5,
       -o-transition: none;
       transition: none; } }
   .left-button:hover, .right-button:hover {
-    color: #7e0cf5 !important; }
+    color: green !important; }
 
 .left-button {
   left: 0; }
@@ -8324,7 +8324,7 @@ h1, h2, h3, h4, h5,
   transition: .2s ease all;
   color: white;
   border: none;
-  background: #7e0cf5; }
+  background: green; }
   .button.button-white {
     background: #fff;
     color: #000; }
@@ -8334,7 +8334,7 @@ h1, h2, h3, h4, h5,
     outline: none; }
 
 #cancel-button {
-  background: #cd4dcc; }
+  background: green; }
 
 #add-button {
   display: block;
@@ -8345,7 +8345,7 @@ h1, h2, h3, h4, h5,
 #add-button:hover, #ok-button:hover, #cancel-button:hover {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
-  transform: scale(1.03); }
+  transform: scale(1.03);}
 
 #add-button:active, #ok-button:active, #cancel-button:active {
   -webkit-transform: translateY(3px) scale(0.97);
@@ -8392,7 +8392,7 @@ h1, h2, h3, h4, h5,
   color: #000; }
 
 .month:hover {
-  color: #cd4dcc; }
+  color: darkgreen; }
 
 /*  Dates table */
 .table-date {
@@ -8412,11 +8412,11 @@ h1, h2, h3, h4, h5,
   position: relative; }
 
 .table-date:not(.nil):hover {
-  border-color: #cd4dcc; }
+  border-color: green; }
 
 .event-date {
-  border-color: #7e0cf5;
-  background: #7e0cf5;
+  border-color: green;
+  background: green;
   color: #fff; }
   .event-date:after {
     position: absolute;
@@ -8429,11 +8429,11 @@ h1, h2, h3, h4, h5,
     background: #28a745; }
 
 .active-date {
-  background: #cd4dcc;
-  color: #fff; }
+  background:#f1e141;
+  color: #000000; }
 
 .event-date.active-date {
-  background: #7e0cf5; }
+  background: green; }
 
 /* input dialog */
 .dialog {
@@ -8483,4 +8483,4 @@ h1, h2, h3, h4, h5,
   border-color: #fff; }
 
 .error-input {
-  border-color: #cd4dcc; }
+  border-color: green; }
